@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Music</title>
+    <link rel="stylesheet" href="css/subcripciones.css">
+    <link rel="icon" href="imgs/icon.youtube.music.png">
+    <script src="js/app.js" defer></script>
+
+</head>
+<body>
+    <header>
+
+        <div class="logo">
+          <img src="imgs/logo-ytMusic.PNG" alt="" height="30px" width="90px">
+        </div>
+    
+    
+        <nav>
+          <ul>
+            <li>
+              <a href="playlist.html"><img src="imgs/icons8-lista-de-reproducción-de-vídeos-30.png" alt="" height="30px" width="30px"></a>
+              <a href="inicio.html"><img src="imgs/icons8-casa-50.png" alt="" height="30px" width="30px"></a>
+            </li>
+          </ul>
+        </nav>
+        
+    </header>
+</body >
+  <div class="body-modal">
+    <div open="modal">
+      <form id="formulario">
+        <h1 class="h1-form">Completa tu suscripcion ahora</h1>
+        <hr>
+        <h1 class="h1-titulo">Prueba Youtube Premium gratis por 1 mes</h1>
+        <input required id="input_nombre-apellido" class="input" type="text" placeholder="Nombre Y Apellido">
+        <h2 class="h2-form">Seleciona el plan que desea</h2>
+        <select name="options" id="input_opciones">
+          <option class="opcion2" value="Plan Individual">Plan Individual / ARS 1,899.00⁠</option>
+          <option class="opcion2" value="Plan Familiar">Plan Familiar / ARS 1,899.00⁠</option>
+        </select>
+        <button type="submit" class="enviar">Completar Subcripcion</button>
+      </form>
+    </div>
+  </div>
+  <script src="js/suscripciones.js"></script>
+</html>

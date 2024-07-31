@@ -1,0 +1,139 @@
+*{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0f0f0f;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 50px;
+}
+
+.logo img{
+    margin: 5px;
+    width: 90px;
+    height: 30px;
+}
+
+
+nav img {
+    margin: 5px;
+}
+/*-----------------------------------------------------------------------*/
+#cancionesSeccion{  
+    padding: 30px;  
+}
+
+
+#tituloMusica{
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 0px;
+}
+#musica{    /*Contenedor musica*/
+    padding: 10px;
+    background-color: #141414;  /*color del fondo*/
+    border-radius: 30px;
+    color: #fff;
+}
+
+
+#cancionesSeccion .btn-primary-agregar{   /*Boton agregar cancion*/
+    font-weight: bolder;  /*texto mas grueso*/
+    width: 400px;
+    height: 55px;
+    margin: 20px;
+    border-radius: 30px;
+    --bs-btn-color: #0f0f0f;
+    --bs-btn-bg: rgb(92, 220, 243);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color:rgb(0, 0, 0);
+    --bs-btn-hover-bg: rgb(0, 143, 168);
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(159, 179, 150);
+    --bs-btn-active-border-color:rgb(255, 255, 255);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: rgb(255, 255, 255);
+    --bs-btn-disabled-border-color: rgb(255, 255, 255);
+}
+
+#cancionesSeccion  .btn-primary-eliminar {   /*Boton de eliminar*/
+    border-radius: 30px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(201, 38, 9, 0.521);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(201, 38, 9);
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+}
+
+#eliminar{
+    color: #fff;
+    text-decoration: none;
+}
+
+#cancionesSeccion  .btn-primary-editar{
+    border-radius: 30px;
+    width: 60px;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(8, 4, 245, 0.521);
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(27, 3, 240);
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-disabled-border-color: none;
+}
+#editar{
+    height: 20px;
+    width: 25px;
+}
+
+#cancionesSeccion  .boton{     /*Boton agregar cancion centrado*/
+    display: flex;
+    justify-content: center;    
+}
+
+#cancionesSeccion .img{   /*Portada canciones*/
+    height: 170px;
+    width: 35%;
+    border-radius: 30px;
+}
+
+#cancionesSeccion  .canciones{     /*Div de canciones*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    margin: 30px;
+    border-radius: 30px;
+    box-shadow: rgba(46, 46, 46, 0.9) 1px 1px 10px 1px;
+}
